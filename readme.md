@@ -23,7 +23,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
   
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[updated soon](https://linktodocumentation)
 
   
 ## Features
@@ -40,10 +40,28 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Installation
 
-Install my-project with pip
+Run & Develop locally.
+```bash
+   git clone ""
+   cd "project_name"
+```
+
+For mac/linux users: 
+* python3 -m venv venv
+* source venv/bin/activate
+* (venv) $ pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
+* (venv) $ pip install -r requirements.txt
+* (venv) $ python3 app.py --port 5000
+
+
+For windows users
+To create virtualenv, follow the virtualenv-wrapper instruction.
 
 ```bash
+  mkvirtualenv venv
+  workon venv
   pip install -r requirements.txt
+  python app.py --port 5000
  
 ```
     
@@ -54,13 +72,9 @@ Install my-project with pip
 
   
 ## Usage/Examples
-
-```python
-import Component from 'my-project'
-
-def App() {
-  return something
-}
+For RestAPI
+```bash
+   python restapi.py --port 5000
 ```
 
   
@@ -73,5 +87,7 @@ Insert gif or link to demo
 ## Acknowledgements
 
  - [Flask Deployment Example](https://github.com/robmarkcole/yolov5-flask)
+ - [Flsk App for yolov5](https://github.com/jzhang533/yolov5-flask)
+ - [ultralytics for yolov5](https://github.com/ultralytics/yolov5)
 
   
